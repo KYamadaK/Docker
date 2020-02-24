@@ -3,6 +3,7 @@
 
 ### 基本コマンド
 ### mysqlをpull
+### Python3.6をpull
 
 # 基本コマンド
 docker --version  
@@ -23,3 +24,9 @@ docker exec -it コンテナID bash
 ## mysqlのコマンド  
 show databases;  
 show tables;
+
+# Python3.6をpull
+docker image pull python:3.6  
+docker run --name python36 -i -t python3.6 /bin/bash  
+
+
