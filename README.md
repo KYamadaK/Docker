@@ -4,10 +4,6 @@
 ### 基本コマンド
 ### mysqlをpull
 
-
-
-
-
 # 基本コマンド
 docker --version  
 docker info  
@@ -15,6 +11,10 @@ docker run -d -p 8080:80 --name コンテナ名称 イメージ
 docker ps  
 docker kill コンテナID  
 docker rm コンテナ名称  
+docker image ls (docker imagesと同じ)  
+docker image inspect イメージ名  
+docker image tag イメージ名 リポジトリ名:TAG  
+
 
 # mysqlをpull
 docker pull mysql  
